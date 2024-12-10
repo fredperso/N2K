@@ -1,0 +1,72 @@
+﻿PGN;Groupe;Sous-Catégorie;Nom;Description;Type de Données;Plage de Données;Résolution;Unités;Notes
+127508;Batterie;État;État de la Batterie;Tension et charge;;;;;
+130584;Batterie;Charge;État de Charge de la Batterie;Charge/Décharge batterie;;;;;
+126464;Configuration;Système;Liste des PGN Supportés;Configuration des PGN supportés par un périphérique;;;;;
+65326;Électrique;Éclairage;Contrôle de l'Éclairage;Commandes d'éclairage;;;;;
+65288;Énergie;Solaire;Gestion de l'Énergie Solaire;Production panneaux solaires;;;;;
+130850;Énergie;Production Solaire;Production d'énergie solaire;Données sur la production instantanée des panneaux solaires;Électrique;0 à 65535;1;Watts;Production énergétique renouvelable
+130851;Énergie;Hydrogénérateur;Production par hydrogénérateur;Indique la puissance générée par l'hydrogénérateur;Électrique;0 à 65535;1;Watts;Énergie récupérée en navigation
+130313;Humidité;Atmosphère;Humidité;Humidité relative;;;;;
+65342;Hydraulique;Niveau;Détection de Niveau d'Eau;Mesure du niveau d'eau dans la cale;;;;;
+65343;Hydraulique;Pompage;Commande de Pompe;Activation/Désactivation des pompes;;;;;
+126996;Identification;Système;Identification du Produit;Informations détaillées sur l'équipement (modèle, version);;;;;
+126998;Identification;Système;Configuration du Réseau;Configuration et topologie du réseau NMEA 2000;;;;;
+130306;Météo;Conditions;Données Météorologiques;Température/Pression atmosphérique;;;;;
+130310;Météo;Environnement;Paramètres Environnementaux;Température/Humidité externes;;;;;
+127488;Moteur;Statut;Paramètres Moteur - Mise à Jour Rapide;Régime moteur et température;;;;;
+127489;Moteur;Dynamique;Paramètres Dynamiques du Moteur;Pression et niveau de carburant;;;;;
+127490;Moteur;Température;Température du Moteur;Températures des différents composants;;;;;
+127491;Moteur;Niveau;Niveau de Carburant;Niveaux de réservoirs;;;;;
+127497;Moteur;Durée;Heures de Fonctionnement;Temps d'utilisation du moteur;;;;;
+127498;Moteur;État;Paramètres Moteur - État Statique;Informations générales du moteur;;;;;
+127500;Moteur;Pression;Pressions du Moteur;Pressions d'huile et autres;;;;;
+65360;Moteur Électrique;État;État du moteur électrique;Transmet l'état opérationnel du moteur électrique;État;Variable;N/A;N/A;Nouveaux PGN pour moteurs électriques
+65361;Moteur Électrique;Puissance;Puissance instantanée;Indique la puissance délivrée par le moteur électrique;Puissance;0 à 100000;1;Watts;Utilisé pour la gestion de la puissance électrique
+65362;Moteur Électrique;Température;Température du moteur électrique;Fournit la température interne du moteur;Température;-273 à +6553.4;0.1;°C;Température critique à surveiller
+65363;Moteur Électrique;Électrique;Tension et courant;Transmet tension et courant alimentant le moteur;Électrique;0 à 1000;0.1;Ampères/Volts;État électrique du moteur
+65364;Moteur Électrique;Autonomie;Autonomie estimée;Indique l'autonomie restante;Autonomie;0 à 500;1;Km;Calcul basé sur charge et conditions
+127237;Navigation;Position;Contrôle de Route;Informations de pilotage automatique;;;;;
+127245;Navigation;Gouvernail;Position du Gouvernail;Position et angle du gouvernail;;;;;
+127250;Navigation;Cap;Cap du Navire;Cap et dérive du navire;;;;;
+127251;Navigation;Cap;Taux de Rotation;Vitesse de rotation du navire;;;;;
+127252;Navigation;Stabilité;Gîte et Tangage;Angle de gîte et de tangage;;;;;
+127257;Navigation;Position;Altitude;Position verticale du navire;;;;;
+127258;Navigation;Déclinaison;Variation Magnétique;Déclinaison magnétique locale;;;;;
+128259;Navigation;Vitesse;Vitesse GPS;Vitesse sol et cap;;;;;
+128267;Navigation;Distance;Distance GPS;Distance parcourue;;;;;
+129026;Navigation;Cap;Cap et Vitesse GPS;Direction et vitesse;;;;;
+127237;Navigation;Route;Contrôle de Route/Track;Informations relatives au contrôle de la route ou du suivi;Navigation;Variable;Variable;N/A;Crucial pour le suivi de route
+127245;Navigation;Gouvernail;Position du Gouvernail;Indique la position actuelle du gouvernail;Navigation;-214.748 à +214.748;0.001;Degré;Pour les systèmes de pilotage automatique
+127250;Navigation;Cap;Cap du Navire;Fournit le cap actuel du navire;Navigation;0 à 360;0.0001;Degré;Direction du navire
+127258;Navigation;Variation;Variation Magnétique;Donne la variation magnétique locale;Navigation;-180 à +180;0.01;Degré;Correction magnétique locale
+128259;Navigation;Vitesse;Vitesse sur l'Eau;Mesure la vitesse du navire par rapport à l'eau;Navigation;0 à 1852;0.01;Nœuds;Utilisé pour les vitesses relatives à l'eau
+129026;Navigation;Cap;COG & SOG, Rapide;Donne le cap et la vitesse fond du navire;Navigation;0 à 360;0.0001;Degré;Direction et vitesse fond calculées rapidement
+129283;Navigation;Route;Erreur de Cross Track;Indique la déviation latérale par rapport à la route prévue;Navigation;-10 à +10;0.001;Milles nautiques;Pour la gestion de la déviation de route
+129284;Navigation;Navigation;Données de Navigation;Fournit des informations sur la route, la distance jusqu'au waypoint, le temps estimé d'arrivée, etc.;Navigation;Variable;Variable;N/A;Essentiel pour la navigation
+129285;Navigation;Route;Informations sur la Route/Waypoint;Détails sur la route active et les waypoints associés;Route;Variable;Variable;N/A;Route et waypoints actifs
+127501;Pompage;État Général;Statut des Systèmes Hydrauliques;État général des systèmes de pompage;;;;;
+130576;Pompage;Contrôle;État des Pompes de Cale;Statut et contrôle des pompes de cale;;;;;
+127750;Pompage;État Général;État de la pompe de cale;Indique si la pompe de cale est activée ou désactivée;Booléen;Actif/Inactif;N/A;Booléen;Gestion des eaux de cale
+127751;Pompage;Niveau d'Eau;Niveau d'eau dans la cale;Mesure le niveau d'eau dans la cale;Numérique;0 à 100;0.1;%;Sécurité de la cale
+129025;Positionnement;GPS;Position GPS;Latitude et longitude précis;;;;;
+129029;Positionnement;GNSS;Données GNSS;Position 3D précise;;;;;
+129038;Positionnement;AIS;Position AIS;Position des navires;;;;;
+129039;Positionnement;AIS;AIS Étendu;Informations étendues AIS;;;;;
+129540;Positionnement;GNSS;Satellites GNSS;Informations satellites;;;;;
+129025;Positionnement;GPS;Position Rapide;Fournit la position GPS rapide du navire;Position;-90 à +90 (lat), -180 à +180 (lon);0.0000001;Degré;Position rapide pour navigation instantanée
+129029;Positionnement;GNSS;Données GNSS;Informations détaillées sur le système GNSS;Position;Variable;Variable;Mètres;Informations GNSS complètes
+130314;Pression;Atmosphère;Pression Atmosphérique;Pression barométrique;;;;;
+126720;Propriétaire;Raymarine;Propriétaire Raymarine;Utilisé pour des communications spécifiques aux équipements Raymarine;Propriétaire;Variable;Variable;N/A;Communication propriétaire Raymarine
+127505;Réservoir;Niveau;Niveau de Fluide;Niveau de carburant/eau;;;;;
+130944;Sécurité;Intrusion;Détection Intrusion;État des systèmes de sécurité;;;;;
+130945;Sécurité;Alarme;Systèmes d'Alarme;État des alarmes;;;;;
+130880;Systèmes;Diagnostic;Diagnostic Système;Erreurs et états système;;;;;
+130881;Systèmes;Alerte;Alertes Système;Messages d'alerte et erreurs;;;;;
+130882;Systèmes;Configuration;Configuration Système;Paramètres généraux système;;;;;
+130852;Systèmes;Panneau de Commande;État du panneau de commande;Transmet l'état des commandes du panneau principal;État;Variable;N/A;N/A;Contrôle et état des commandes
+130311;Température;Eau;Température de l'Eau;Température mer/réservoir;;;;;
+130312;Température;Air;Température de l'Air;Température ambiante;;;;;
+130316;Température;Externe;Température Extérieure;Température hors du bateau;;;;;
+129033;Temps;Horodatage;Heure et Date;Horodatage précis;;;;;
+127493;Transmission;Dynamique;Transmission - Paramètres;Rapport de transmission et état;;;;;
+130577;Vent;Direction;Direction du Vent;Angle et vitesse du vent;;;;;
