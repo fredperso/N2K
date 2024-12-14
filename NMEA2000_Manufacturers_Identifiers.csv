@@ -1,21 +1,21 @@
-﻿Fabricant,Identifiant
-Garmin,1
-"Navico (incluant Lowrance, Simrad, B&G)",2
-Raymarine,3
-Furuno,4
-Humminbird,5
-Icom,6
-Standard Horizon,7
-Actisense,8
-Maretron,9
-Airmar,10
-Victron Energy,11
-Mastervolt,12
-Yacht Devices,13
-Vesper Marine,14
-Oceanic Systems,15
-Digital Yacht,16
-Em-Trak,17
-NKE Marine Electronics,18
-Simrad Yachting,19
-Lowrance Electronics,20
+Fabricant,Identifiant,Description
+Garmin,1,"Multinational technology company known for GPS navigation and wearable technology"
+"Navico (incluant Lowrance, Simrad, B&G)",2,"Parent company specializing in marine electronics and navigation systems"
+Raymarine,3,"Prominent marine electronics manufacturer known for navigation systems and sailing instruments"
+Furuno,4,"Japanese manufacturer of marine electronics, renowned for radar and navigation equipment"
+Humminbird,5,"Specializes in marine electronics, particularly fishfinders and depth sounders"
+Icom,6,"Japanese manufacturer of marine communication equipment"
+Standard Horizon,7,"Marine communication equipment manufacturer focusing on VHF radios"
+Actisense,8,"Specialist in marine data interface and conversion technologies"
+Maretron,9,"Focuses on marine electronic systems and NMEA 2000 network solutions"
+Airmar,10,"Manufacturer of marine sensors, transducers, and ultrasonic technology"
+Victron Energy,11,"Specializes in power conversion and energy management systems for marine applications"
+Mastervolt,12,"Marine and mobile power solutions provider"
+Yacht Devices,13,"Marine electronics and networking solutions manufacturer"
+Vesper Marine,14,"Marine electronics company focused on AIS technology"
+Oceanic Systems,15,"Marine electronics and integration solutions provider"
+Digital Yacht,16,"Marine electronics manufacturer offering AIS and GPS solutions"
+Em-Trak,17,"Marine electronics company specializing in AIS transceivers"
+NKE Marine Electronics,18,"French marine electronics manufacturer of sailing instruments"
+Simrad Yachting,19,"Part of Navico group focusing on high-end marine navigation electronics"
+Lowrance Electronics,20,"Part of Navico group known for fishfinders and marine navigation systems"
